@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gabriela Montenegro | Ingeniera de Software Full-Stack</title>
+  <meta name="description" content="Gabriela Montenegro Ambito — Ingeniera de Software Full-Stack en Neiva, Colombia. Desarrollo web, SaaS y visión por computadora con React, .NET y Python." />
+  <meta name="author" content="Gabriela Montenegro Ambito" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gabriela Montenegro | Ingeniera de Software Full-Stack" />
+  <meta property="og:description" content="Desarrollo web full-stack, SaaS y visión por computadora." />
+  <meta property="og:locale" content="es_CO" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- Aplica el tema antes de pintar para evitar parpadeo -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme') ||
+          (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
