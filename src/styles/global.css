@@ -154,6 +154,7 @@
   .pj .top{position:absolute;inset:0 0 auto 0;height:3px;background:var(--grad);opacity:0;transition:opacity .3s}
   .pj:hover .top{opacity:1}
   .pj-cat{font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--i3);display:inline-flex;align-items:center;gap:.5rem}
+  .pj-note{margin-top:1.1rem;color:var(--faint);font-size:.82rem}   /* ← AGREGAR ESTA LÍNEA */
   .pj h3{font-size:1.42rem;margin:.7rem 0 .75rem;font-weight:600}
   .pj p{color:var(--muted);font-size:.96rem;margin-bottom:.35rem}
   .pj p strong{color:var(--text);font-weight:600}
