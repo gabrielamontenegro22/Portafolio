@@ -1,7 +1,7 @@
 // Datos generales del perfil. Edita aquí tu información personal.
 export const profile = {
   name: 'Gabriela',
-  lastName: 'Montenegro',
+  lastName: 'Montenegro Ambito',
   fullName: 'Gabriela Montenegro Ambito',
   title: 'Ingeniera de Software',
   roleLine: ['Full-Stack', 'EdTech', 'Visión por Computadora'],
