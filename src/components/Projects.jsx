@@ -49,6 +49,7 @@ export default function Projects() {
                     </span>
                   ))}
                 </div>
+                {p.private && <div className="pj-note">Proyecto privado</div>}
               </>
             );
 
@@ -75,6 +76,7 @@ export default function Projects() {
                           </span>
                         ))}
                       </div>
+                      {p.private && <div className="pj-note">Proyecto privado</div>}
                     </div>
                     {p.arch && (
                       <div className="archbox">
