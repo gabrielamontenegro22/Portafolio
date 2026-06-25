@@ -3,6 +3,7 @@
 export const projects = [
   {
     id: 'bellasync',
+    private: true,
     featured: true,
     category: 'saas',
     tag: 'SaaS · Empresarial · Destacado',
@@ -22,6 +23,7 @@ export const projects = [
   },
   {
     id: 'play-learn',
+    private: true,
     category: 'edu',
     tag: 'EdTech · Semillero',
     title: 'Play & Learn',
