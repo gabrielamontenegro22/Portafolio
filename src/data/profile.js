@@ -19,7 +19,7 @@ export const profile = {
   ],
 
   stack: [
-    'React', 'TypeScript', '.NET 8', 'PostgreSQL', 'Python', "MySql","C#",
+    'Bilingüe ','React', 'TypeScript', '.NET 8', 'PostgreSQL', 'Python', "MySql","C#",
     ".Net", 'OpenCV', 'Tailwind', 'Vite', 'Firebase', 'EF Core', 'Git',
   ],
 
