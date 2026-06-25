@@ -1,6 +1,13 @@
 // Educación y reconocimientos. type: 'edu' | 'award'. full: true ocupa toda la fila.
 export const education = [
   {
+  type: 'edu',
+  icon: 'cap',
+  title: 'Ingeniería de Software',
+  meta: 'Fundación Escuela Tecnológica de Neiva (FET)',
+  year: 'Décimo semestre · En curso',
+},
+  {
     type: 'edu',
     icon: 'cap',
     title: 'Tecnóloga en Desarrollo de Sistemas de Información y Redes',
