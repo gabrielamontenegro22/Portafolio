@@ -24,7 +24,7 @@ export const profile = {
   ],
 
   // ⚠️ Reemplaza este correo por el real
-  email: 'gabrielam200409@.com',
+  email: 'gabrielam200409@gmail.com',
   phone: '+57 323 243 1370',
   phoneHref: '+573232431370',
   linkedin: 'https://www.linkedin.com/in/gabriela-montenegro-ambito-251300230/',
